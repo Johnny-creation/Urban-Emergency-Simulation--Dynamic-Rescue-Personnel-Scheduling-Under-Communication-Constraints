@@ -4,13 +4,13 @@
 本项目围绕灾难救援调度问题展开，提供了多种算法和策略来优化救援资源的分配，以最大程度地减少受灾人员伤亡。项目中包含了多智能体策略优化（MAPPO）、遗传编程（Genetic Programming）、元启发式调度结合遗传算法优化评分函数，以及不同的救援任务分配策略等多种方法。同时，项目还提供了一个基于 React 的可视化界面，方便用户进行模拟和调试。
 
 ## 二、项目结构
-'''
+'''bash
 src/
-├── App.js              # React 可视化界面
-├── mappo.py            # 多智能体策略优化算法实现
-├── genetic_programming.py  # 遗传编程算法实现
-├── Metaheuristics.py   # 元启发式调度结合遗传算法优化评分函数
-├── distribute_strategy.py  # 不同的救援任务分配策略实现
+├── App.js
+├── mappo.py
+├── genetic_programming.py
+├── Metaheuristics.py
+├── distribute_strategy.py
 '''
 
 ## 三、主要模块介绍
@@ -68,11 +68,10 @@ src/
 
 ### 1. 安装依赖
 本项目使用了 `torch`、`numpy`、`matplotlib`、`sklearn`、`react`、`lucide-react` 等库，请确保这些库已经安装。可以使用以下命令进行安装：
-
-安装 Python 依赖
+'''bash
 pip install torch numpy matplotlib scikit-learn
-安装前端依赖
 npm install
+'''
 
 ### 2. 运行代码
 
